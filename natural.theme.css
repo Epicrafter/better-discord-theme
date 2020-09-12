@@ -1,0 +1,51 @@
+//META{"name":"Natural","description":"A Better Discord Theme.","author":"Epicrafter","version":"1"}*//{}
+
+/* variables*/
+
+:root {
+    --background: url(https://img5.goodfon.com/wallpaper/nbig/7/59/mmmmmm-nnnnnn-bbbbbb-vvvvvvvvvvvvvv.jpg);
+    --popup-background: url(https://image.freepik.com/free-vector/tropical-flowers-wallpaper_23-2148523155.jpg);
+    --accent-1: #faf0e8;
+    --accent-2: #2a4f34;
+    /*--transparent-1: rgba(0, 0, 0, 0.3);
+    --transparent-2: rgba(0, 0, 0, 0.5);
+    --transparent-3: rgba(0, 0, 0, 0.7);*/
+}
+/*transparency*/
+.theme-dark, .theme-light {
+    --background-primary: var(--transparent-1)!important;
+    --background-secondary: transparent;
+    --background-tertiary: none;
+    --background-accent: none;
+    --background-secondary-alt: var(--transparent-1);
+    --background-floating: var(--transparent-3);
+    --background-modifier-selected: var(--accent);
+    --background-modifier-hover: none;
+    --background-modifier-active: var(--transparent-1);
+    --background-modifier-hover: none;
+    
+}
+
+
+
+.appMount-3lHmkl {
+    background-image: url(https://img5.goodfon.com/wallpaper/nbig/7/59/mmmmmm-nnnnnn-bbbbbb-vvvvvvvvvvvvvv.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.scrollableContainer-2NUZem {
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.searchBar-3dMhjb {
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
